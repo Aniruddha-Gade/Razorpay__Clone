@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Razorpay__Clone/static/css/main.f3fb0082.css",
-    "main.js": "/Razorpay__Clone/static/js/main.6ca854c3.js",
+    "main.css": "/Razorpay__Clone/static/css/main.59c40123.css",
+    "main.js": "/Razorpay__Clone/static/js/main.d17a0c8e.js",
     "static/media/buisness-banking.png": "/Razorpay__Clone/static/media/buisness-banking.b40f463e52f4ef0a2ce9.png",
     "static/media/testimonialImage6.png": "/Razorpay__Clone/static/media/testimonialImage6.6b63088f5f5eb6e8d02c.png",
     "static/media/testimonialImage5.png": "/Razorpay__Clone/static/media/testimonialImage5.4a031b54b1e6b8a331ab.png",
@@ -49,11 +49,11 @@
     "static/media/facebook-icon.svg": "/Razorpay__Clone/static/media/facebook-icon.c84121629cffcba146799f8b568ab1bd.svg",
     "static/media/hero-shape.svg": "/Razorpay__Clone/static/media/hero-shape.8b88e906ecfde69e1cb9de796a5f45a6.svg",
     "static/media/feature-section-2BG.svg": "/Razorpay__Clone/static/media/feature-section-2BG.cadc224a0337f3893747.svg",
-    "main.f3fb0082.css.map": "/Razorpay__Clone/static/css/main.f3fb0082.css.map",
-    "main.6ca854c3.js.map": "/Razorpay__Clone/static/js/main.6ca854c3.js.map"
+    "main.59c40123.css.map": "/Razorpay__Clone/static/css/main.59c40123.css.map",
+    "main.d17a0c8e.js.map": "/Razorpay__Clone/static/js/main.d17a0c8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3fb0082.css",
-    "static/js/main.6ca854c3.js"
+    "static/css/main.59c40123.css",
+    "static/js/main.d17a0c8e.js"
   ]
 }
