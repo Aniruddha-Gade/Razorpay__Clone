@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ******** moveCompany ******** */
+.companiesList{
+  animation:10s infinite linear moveCompany;
+}
+
+@keyframes moveCompany {
+  0%{
+    top:0;
+  }
+  100%{
+    top:-50%;
+  }
+}
