@@ -1,14 +1,50 @@
-# 
 
 
-# <img  align="center" width= 70px  src="https://raw.githubusercontent.com/aniruddha-gade/Discord__Clone/main/screenshots/discordGif.gif"> Razorpay__Clone
+
+![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Razorpay__Clone/main/src/assets/logo.svg)
+
+# 🔗 Live link - [  https://clone-rozorpay.netlify.app/  ]
 
 
-# <img  align="center" width= 100px  src="https://w7.pngwing.com/pngs/88/578/png-transparent-razorpay-logo-thumbnail-tech-companies-thumbnail.png"> Razorpay__Clone
-
-
-🔗 Live link - [  https://clone-rozorpay.netlify.app/  ]
-
-
+     
+     
+    
+     
+     
+    
+     
+    
+     
 
  # 📸 Screenshots
+ # Navbar and Header 
+![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Razorpay__Clone/main/razorpay%20screenshots/image1.png)
+
+# PaymentPagesCardSection 
+![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Razorpay__Clone/main/razorpay%20screenshots/image2.png)
+
+# BusinessBankingSection 
+![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Razorpay__Clone/main/razorpay%20screenshots/image3.png)
+
+# RazorpayXFeaturesSection 
+![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Razorpay__Clone/main/razorpay%20screenshots/image4.png)
+
+![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Razorpay__Clone/main/razorpay%20screenshots/image5.png)
+
+# FeaturesSection 
+![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Razorpay__Clone/main/razorpay%20screenshots/image6.png)
+
+![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Razorpay__Clone/main/razorpay%20screenshots/image7.png)
+
+ # JoinUsSection 
+![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Razorpay__Clone/main/razorpay%20screenshots/image8.png)
+
+# TestimonialsSection 
+![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Razorpay__Clone/main/razorpay%20screenshots/image9.png)
+
+ # CTA
+![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Razorpay__Clone/main/razorpay%20screenshots/image10.png)
+
+# Footer
+![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Razorpay__Clone/main/razorpay%20screenshots/image11.png)
+![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Razorpay__Clone/main/razorpay%20screenshots/image12.png)
