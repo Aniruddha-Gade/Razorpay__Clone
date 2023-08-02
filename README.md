@@ -1,9 +1,8 @@
 
+<img width='450px' src='https://raw.githubusercontent.com/aniruddha-gade/Razorpay__Clone/main/src/assets/logo.svg' />
 
 
-![Alt Text](https://raw.githubusercontent.com/aniruddha-gade/Razorpay__Clone/main/src/assets/logo.svg)
-
-# 🔗 Live link - [  https://clone-rozorpay.netlify.app/  ]
+<h2>🔗 Live link - [  https://clone-rozorpay.netlify.app/  ]</h2>
 
 
      
