@@ -9,7 +9,6 @@ import smartCollect from '../assets/smart-collect-icon.svg'
 
 // BusinessBankingSection section
 import current from '../assets/current-icon.svg'
-import payroll from '../assets/payment-modes.svg'
 import payouts from '../assets/payouts-icon.svg'
 
 // FeaturesSection cards
