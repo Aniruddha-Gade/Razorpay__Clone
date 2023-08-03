@@ -1,6 +1,7 @@
 import React from 'react'
 import dottedrows1 from '../assets/feature-section1-dottedrows.png'
 import paymentSuite from '../assets/payment-suite.png'
+import featureWave from '../assets/features-wave.svg'
 
 import Button from './Button'
 import { IoIosArrowForward } from 'react-icons/io';
@@ -18,15 +19,16 @@ const Feature = ({ title }) => (
 
 
 const Card = ({ title, desc, logo }) => (
-  <div className='w-[340px] xs:w-full sm:w-[360px] lg:w-full min-h-[15rem] relative cursor-pointer shadow-sm lg:shadow-none hover:shadow-xl mb-7'>
+  <div className='w-[340px] xs:w-full sm:w-[360px] lg:w-full min-h-[15rem] relative cursor-pointer shadow-sm mb-7 group'>
     <img src={logo} alt={logo}
       className='bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200' />
+    <img src={featureWave} className='hidden group-hover:flex absolute right-0 bottom-2 z-[1000] w-24 duration-500' alt='feature Wave' />
 
     <svg
       viewBox="0 0 349.32501220703125 225"
       xmlns="http://www.w3.org/2000/svg"
       preserveAspectRatio="none"
-      className="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200 "
+      className="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200 group-hover:shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]"
       style={{ strokeOpacity: 0.15 }}
     >
       <path
@@ -48,7 +50,7 @@ const Card = ({ title, desc, logo }) => (
     <div className='z-[100] absolute w-full h-full flex flex-col justify-between pl-5 py-6 pr-8 '>
       <h3 className='font-extrabold text-deepBlueHead leading-[1.2] text-[1.375rem]'>{title}</h3>
       <p className=' text-grayText '>{desc}</p>
-      <div className='flex font-bold text-lightBlue hover:text-grayBlue items-center cursor-pointer gap-2'>
+      <div className='flex font-bold text-lightBlue hover:text-lightBlue300 items-center cursor-pointer gap-2'>
         <a href='/'>Know More</a>
         <IoIosArrowForward />
       </div>

@@ -56,7 +56,7 @@ const Navbar = () => {
             <IoIosArrowDown className='text-white w-[15px] group-hover:text-lightBlue' />
           </div> */}
 
-          <div onMouseEnter={()=> setCountryHoverBox(true)} onMouseLeave={()=> setCountryHoverBox(false)} 
+          <div onMouseEnter={() => setCountryHoverBox(true)} onMouseLeave={() => setCountryHoverBox(false)}
             className="flex gap-1 items-center group cursor-pointer relative transition-all duration-500">
             <img src={IndiaFlag} alt="IndiaLogo" className="w-[30px] h-[30px]" />
             <IoIosArrowDown className="text-white w-[15px] group-hover:text-lightBlue" />

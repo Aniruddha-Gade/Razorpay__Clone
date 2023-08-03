@@ -183,7 +183,7 @@ export const BusinessBankingCards = [
         id: 2,
         title: 'Payroll',
         desc: 'Set your payroll and compliances like TDS, ESIC, PT, & PF on autopilot.',
-        logo: payroll,
+        logo: current,
     }
 ]
 

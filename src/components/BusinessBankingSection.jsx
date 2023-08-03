@@ -5,6 +5,7 @@ import buisnessBankingImage from '../assets/buisness-banking.png'
 import razorpayXLogo from '../assets/razorpayX.svg'
 import xflame1 from '../assets/x-flame-1.png'
 import xflame2 from '../assets/x-flame-2.png'
+import featureWave from '../assets/features2-wave.svg'
 
 import { BusinessBankingSection_features, BusinessBankingCards } from '../constants';
 
@@ -12,18 +13,19 @@ import { BusinessBankingSection_features, BusinessBankingCards } from '../consta
 
 const Feature = ({ title }) => (
   <li className='flex gap-4 items-center text-lightGray'>
-    <BiCheck size={27} className='text-green-300'/>
+    <BiCheck size={27} className='text-green-300' />
     {title}
   </li>
 )
 
 
 const Card = ({ title, desc, logo }) => (
-  <div className='w-[340px] xs:w-full sm:w-[360px] lg:w-full min-h-[14rem] relative cursor-pointer hover:shadow-xl'>
+  <div className='w-[340px] xs:w-full sm:w-[360px] lg:w-full min-h-[14rem] relative cursor-pointer hover:shadow-2xl group'>
     <img src={logo} alt={logo} className='bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200' />
+    <img src={featureWave} className='hidden group-hover:flex absolute right-0 bottom-2 z-[100] ' alt='feature Wave' />
 
     <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
-      className="stroke-1 stroke-[#525a76] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200"
+      className="stroke-1 group-hover:stroke-0 stroke-[#525a76] h-full w-full absolute z-[90] featureCardSVG transition-all duration-200"
       style={{ strokeOpacity: 0.8 }}>
       <path d="m 0 6 
                     a 6 6 0 0 1 6 -6 
@@ -108,7 +110,7 @@ const BusinessBankingSection = () => {
               <h3 className="hidden sm:flex text-[28px] text-white font-bold leading-10 max-w-[500px] ">
                 Manage your company’s finances and supercharge your business banking with
                 <img src={razorpayXLogo} alt={razorpayXLogo} className='inline ml-3 w-[168px] h-[32px] ' />
-              </h3> 
+              </h3>
 
               <ul className='flex flex-col gap-3'>
                 {BusinessBankingSection_features.map(feature => (
@@ -120,7 +122,7 @@ const BusinessBankingSection = () => {
 
               <div className='mt-7 lg:mt-0 flex flex-col-reverse lg:flex-row font-bold items-center gap-7 w-full'>
                 <Button title={'Sign Up Now'} />
-                <div className='flex self-start lg:self-center text-lightBlue hover:text-grayBlue items-center  gap-2'>
+                <div className='flex self-start lg:self-center text-lightBlue hover:text-lightBlue300 items-center  gap-2'>
                   <a href='/' className=''>Know More</a>
                   <IoIosArrowForward />
                 </div>
