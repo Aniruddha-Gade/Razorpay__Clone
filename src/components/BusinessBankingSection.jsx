@@ -19,9 +19,10 @@ const Feature = ({ title }) => (
 )
 
 
+
 const Card = ({ title, desc, logo }) => (
-  <div className='w-[340px] xs:w-full sm:w-[360px] lg:w-full min-h-[14rem] relative cursor-pointer hover:shadow-2xl group'>
-    <img src={logo} alt={logo} className='bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200' />
+  <div className='w-[340px] xs:w-full sm:w-[360px] lg:w-full min-h-[14rem] relative cursor-pointer hover:shadow-2xl group '>
+    <img src={logo} alt={logo} className='bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200 group-hover:contrast-200' />
     <img src={featureWave} className='hidden group-hover:flex absolute right-0 bottom-2 z-[100] ' alt='feature Wave' />
 
     <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
