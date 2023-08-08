@@ -5,15 +5,6 @@
 <h2>🔗 Live link - [  https://clone-rozorpay.netlify.app/  ]</h2>
 
 
-     
-     
-    
-     
-     
-    
-     
-    
-     
 
  # 📸 Screenshots
  # Navbar and Header 
